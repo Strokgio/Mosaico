@@ -1,0 +1,54 @@
+                 <Segment>
+<Grid.Row>
+    <Grid.Column>
+      <Image src={image} size='medium'/>
+        <Header as='h2'>Palacio Portales</Header>
+        <Header as='h3'>Calificacion : 5</Header>
+        <Dropdown text='califique'>
+            <Dropdown.Menu>
+                <Dropdown.Item text='1'/>
+                <Dropdown.Item text='2'/>
+                <Dropdown.Item text='3'/>
+                <Dropdown.Item text='4'/>
+                <Dropdown.Item text='5'/>
+            </Dropdown.Menu>
+        </Dropdown>
+        <Button secondary>Calificar</Button>
+    </Grid.Column>
+</Grid.Row>
+
+</Segment>
+
+
+
+
+
+
+
+return( 
+<div class="ui two column grid">
+  <div class="column">
+      <div class="ui segment">
+          <div class="ui two column very relaxed grid">
+              <div class="column">
+              <Image src={image} size='medium'/>
+              </div>
+              <div class="column">
+              <Header as='h2'>Palacio Portales</Header>
+              <Header as='h3'>Calificacion : 5</Header>
+              <Dropdown text='califique'>
+                <Dropdown.Menu>
+                  <Dropdown.Item text='1'/>
+                  <Dropdown.Item text='2'/>
+                  <Dropdown.Item text='3'/>
+                  <Dropdown.Item text='4'/>
+                  <Dropdown.Item text='5'/>
+                </Dropdown.Menu>
+              </Dropdown>
+              <Button secondary>Calificar</Button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+    )
